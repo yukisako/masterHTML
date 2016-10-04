@@ -7,17 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65230E271DA2764300CF01B7 /* NormalModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65230E261DA2764300CF01B7 /* NormalModeViewController.swift */; };
+		65230E2A1DA2787500CF01B7 /* study.png in Resources */ = {isa = PBXBuildFile; fileRef = 65230E281DA2787500CF01B7 /* study.png */; };
+		65230E2B1DA2787500CF01B7 /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = 65230E291DA2787500CF01B7 /* quiz.png */; };
+		65230E2D1DA2825500CF01B7 /* NormalModeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65230E2C1DA2825500CF01B7 /* NormalModeTableView.swift */; };
+		65230E321DA2847100CF01B7 /* NormalModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65230E301DA2847100CF01B7 /* NormalModeTableViewCell.swift */; };
+		65230E331DA2847100CF01B7 /* NormalModeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65230E311DA2847100CF01B7 /* NormalModeTableViewCell.xib */; };
+		65230E3E1DA284F900CF01B7 /* QuizProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65230E3C1DA284F900CF01B7 /* QuizProgressTableViewCell.swift */; };
+		65230E3F1DA284F900CF01B7 /* QuizProgressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65230E3D1DA284F900CF01B7 /* QuizProgressTableViewCell.xib */; };
+		65230E411DA340A400CF01B7 /* top_study.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65230E401DA340A400CF01B7 /* top_study.jpg */; };
+		65230E441DA3CA5700CF01B7 /* quiz_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 65230E431DA3CA5700CF01B7 /* quiz_selected.png */; };
+		65230E481DA3CBAF00CF01B7 /* study_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 65230E471DA3CBAF00CF01B7 /* study_selected.png */; };
 		65C29B5E1DA26B1C003864FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C29B5D1DA26B1C003864FF /* AppDelegate.swift */; };
-		65C29B601DA26B1C003864FF /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C29B5F1DA26B1C003864FF /* TopViewController.swift */; };
 		65C29B631DA26B1C003864FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C29B611DA26B1C003864FF /* Main.storyboard */; };
 		65C29B651DA26B1C003864FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C29B641DA26B1C003864FF /* Assets.xcassets */; };
 		65C29B681DA26B1C003864FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C29B661DA26B1C003864FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65230E261DA2764300CF01B7 /* NormalModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalModeViewController.swift; sourceTree = "<group>"; };
+		65230E281DA2787500CF01B7 /* study.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = study.png; sourceTree = "<group>"; };
+		65230E291DA2787500CF01B7 /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
+		65230E2C1DA2825500CF01B7 /* NormalModeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalModeTableView.swift; sourceTree = "<group>"; };
+		65230E301DA2847100CF01B7 /* NormalModeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalModeTableViewCell.swift; sourceTree = "<group>"; };
+		65230E311DA2847100CF01B7 /* NormalModeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalModeTableViewCell.xib; sourceTree = "<group>"; };
+		65230E3C1DA284F900CF01B7 /* QuizProgressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizProgressTableViewCell.swift; sourceTree = "<group>"; };
+		65230E3D1DA284F900CF01B7 /* QuizProgressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizProgressTableViewCell.xib; sourceTree = "<group>"; };
+		65230E401DA340A400CF01B7 /* top_study.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top_study.jpg; sourceTree = "<group>"; };
+		65230E431DA3CA5700CF01B7 /* quiz_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_selected.png; sourceTree = "<group>"; };
+		65230E471DA3CBAF00CF01B7 /* study_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = study_selected.png; sourceTree = "<group>"; };
 		65C29B5A1DA26B1B003864FF /* masterHTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masterHTML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C29B5D1DA26B1C003864FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C29B5F1DA26B1C003864FF /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		65C29B621DA26B1C003864FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C29B641DA26B1C003864FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C29B671DA26B1C003864FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +55,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65230E2E1DA2825900CF01B7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				65230E2C1DA2825500CF01B7 /* NormalModeTableView.swift */,
+				65230E3C1DA284F900CF01B7 /* QuizProgressTableViewCell.swift */,
+				65230E3D1DA284F900CF01B7 /* QuizProgressTableViewCell.xib */,
+				65230E301DA2847100CF01B7 /* NormalModeTableViewCell.swift */,
+				65230E311DA2847100CF01B7 /* NormalModeTableViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		65230E2F1DA2826900CF01B7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				65230E261DA2764300CF01B7 /* NormalModeViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		65230E421DA3B20B00CF01B7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				65230E281DA2787500CF01B7 /* study.png */,
+				65230E291DA2787500CF01B7 /* quiz.png */,
+				65230E431DA3CA5700CF01B7 /* quiz_selected.png */,
+				65230E471DA3CBAF00CF01B7 /* study_selected.png */,
+				65230E401DA340A400CF01B7 /* top_study.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		65C29B511DA26B1B003864FF = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +106,12 @@
 		65C29B5C1DA26B1C003864FF /* masterHTML */ = {
 			isa = PBXGroup;
 			children = (
+				65230E2F1DA2826900CF01B7 /* controller */,
+				65230E2E1DA2825900CF01B7 /* view */,
 				65C29B5D1DA26B1C003864FF /* AppDelegate.swift */,
-				65C29B5F1DA26B1C003864FF /* TopViewController.swift */,
 				65C29B611DA26B1C003864FF /* Main.storyboard */,
 				65C29B641DA26B1C003864FF /* Assets.xcassets */,
+				65230E421DA3B20B00CF01B7 /* image */,
 				65C29B661DA26B1C003864FF /* LaunchScreen.storyboard */,
 				65C29B691DA26B1C003864FF /* Info.plist */,
 			);
@@ -96,6 +150,7 @@
 				TargetAttributes = {
 					65C29B591DA26B1B003864FF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 67QLZ4589L;
 					};
 				};
 			};
@@ -123,8 +178,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				65C29B681DA26B1C003864FF /* LaunchScreen.storyboard in Resources */,
+				65230E331DA2847100CF01B7 /* NormalModeTableViewCell.xib in Resources */,
+				65230E2B1DA2787500CF01B7 /* quiz.png in Resources */,
+				65230E2A1DA2787500CF01B7 /* study.png in Resources */,
 				65C29B651DA26B1C003864FF /* Assets.xcassets in Resources */,
 				65C29B631DA26B1C003864FF /* Main.storyboard in Resources */,
+				65230E3F1DA284F900CF01B7 /* QuizProgressTableViewCell.xib in Resources */,
+				65230E411DA340A400CF01B7 /* top_study.jpg in Resources */,
+				65230E441DA3CA5700CF01B7 /* quiz_selected.png in Resources */,
+				65230E481DA3CBAF00CF01B7 /* study_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C29B601DA26B1C003864FF /* TopViewController.swift in Sources */,
+				65230E271DA2764300CF01B7 /* NormalModeViewController.swift in Sources */,
+				65230E321DA2847100CF01B7 /* NormalModeTableViewCell.swift in Sources */,
+				65230E3E1DA284F900CF01B7 /* QuizProgressTableViewCell.swift in Sources */,
 				65C29B5E1DA26B1C003864FF /* AppDelegate.swift in Sources */,
+				65230E2D1DA2825500CF01B7 /* NormalModeTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = masterHTML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.yukisako.masterHTML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +328,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = masterHTML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.yukisako.masterHTML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +357,7 @@
 				65C29B6E1DA26B1C003864FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

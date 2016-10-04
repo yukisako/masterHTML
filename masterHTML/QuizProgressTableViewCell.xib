@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="QuizProgressTableViewCell" customModule="masterHTML" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ag3-xt-h3D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f4N-5c-1Sr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="199"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-W1-6Zt">
+                        <rect key="frame" x="10" y="89" width="355" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ag3-xt-h3D" secondAttribute="bottom" id="8MO-hV-cHA"/>
+                    <constraint firstAttribute="trailing" secondItem="Ag3-xt-h3D" secondAttribute="trailing" id="AFI-Rb-2mG"/>
+                    <constraint firstAttribute="bottom" secondItem="f4N-5c-1Sr" secondAttribute="bottom" id="ESJ-1u-vre"/>
+                    <constraint firstAttribute="trailing" secondItem="f4N-5c-1Sr" secondAttribute="trailing" id="LSR-ew-4jb"/>
+                    <constraint firstItem="Ag3-xt-h3D" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Q8e-zx-54P"/>
+                    <constraint firstItem="f4N-5c-1Sr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jVW-TF-gLS"/>
+                    <constraint firstItem="f4N-5c-1Sr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qpy-dq-gEG"/>
+                    <constraint firstItem="Ag3-xt-h3D" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rV4-Er-1Px"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageMaskView" destination="f4N-5c-1Sr" id="fN3-cr-e5x"/>
+                <outlet property="topImageView" destination="Ag3-xt-h3D" id="j6F-cc-RbU"/>
+                <outlet property="topLabel" destination="ffc-W1-6Zt" id="Xnv-DT-JOu"/>
+            </connections>
+            <point key="canvasLocation" x="217.5" y="392"/>
+        </tableViewCell>
+    </objects>
+</document>
